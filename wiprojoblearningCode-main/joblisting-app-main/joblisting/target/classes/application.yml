@@ -1,0 +1,16 @@
+spring:
+    data:
+        mongodb:
+            database: wipro
+            host: localhost
+            port: 27017
+
+userManger:
+    app:
+        jwtTokenName: userManager
+        jwtSecret: userManagerSecretKey
+        jwtExpirationMs: 86400000
+
+springdoc:
+    swagger-ui:
+        path: /joblisting/swagger/index.html
